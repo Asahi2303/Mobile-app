@@ -1,0 +1,48 @@
+Can't create, edit or upload … Not enough storage to save to Drive, back up Google Photos or use Gmail.
+StudentPortal/
+│
+├── app.js
+│
+├── src/
+│   ├── config/
+│   │   └── config.js
+│   │
+│   ├── context/
+│   │   └── StudentContext.js
+│   │
+│   ├── navigation/
+│   │   └── AppNavigator.js      # (or index.js)
+│   │
+│   ├── screens/
+│   │   ├── Auth/
+│   │   │   ├── LoginScreen.js
+│   │   │   ├── RegisterScreen.js
+│   │   │   ├── ForgotEmailScreen.js
+│   │   │   ├── ResetPasswordScreen.js
+│   │   │   └── SendResetCodeScreen.js
+│   │   │
+│   │   ├── Dashboard/
+│   │   │   └── DashboardScreen.js
+│   │   │
+│   │   ├── Academic/
+│   │   │   ├── ClassScheduleScreen.js
+│   │   │   ├── GradesScreen.js
+│   │   │   └── SubjectSummaryScreen.js
+│   │   │
+│   │   ├── Enrollment/
+│   │   │   └── EnrollmentStatusScreen.js
+│   │   │
+│   │   ├── Common/
+│   │   │   ├── HomeScreen.js
+│   │   │   ├── LogoutScreen.js
+│   │   │   └── LoadingScreen.js
+│   │
+│   ├── components/
+│   │   └── (Any reusable UI components)
+│   │
+│   ├── assets/
+│   │   ├── images/
+│   │   └── fonts/
+│   │
+│   └── utils/
+│       └── (Helper functions, constants, etc.)
